@@ -122,18 +122,7 @@ public class D
 						{	
 							/*See Intersection -> v_y*/
 							if(y > andares[z].objectos[w].minY && y < andares[z].objectos[w].maxY)
-							{
 								xCalc+=andares[z].objectos[w].dist;
-								/*if(andares[z].objectos[w].minX < array[i].maxX)
-								{
-									if(andares[z].objectos[w].maxX > array[i].maxX)
-										xCalc+=andares[z].objectos[w].dist-(array[i].maxX-andares[z].objectos[w].minX);
-									//if(andares[z].objectos[w].maxX < array[i].maxX)
-										//xCalc+=andares[z].objectos[w].dist-andares[z].objectos[w].dist;
-								}
-								else
-									xCalc+=andares[z].objectos[w].dist;*/
-							}
 						}
 						/*Already have a xMin and xCalc Bigger than xMin in this v_y*/
 						if(xMin!=0 && xCalc > xMin)
